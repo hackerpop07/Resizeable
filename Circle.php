@@ -38,7 +38,7 @@ class Circle implements Resizeable
 
     function acreage()
     {
-        $s = 2 * pi() * ($this->getRadius() ** 2);
+        $s =  pi() * ($this->getRadius() ** 2);
         return $s;
     }
 }
